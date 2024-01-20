@@ -1,6 +1,6 @@
 ﻿
 // check if number is divided by 5 without remain
-/*
+
 Console.WriteLine("Let's check if number is divided by 5");
 Console.WriteLine("Write a number");
 
@@ -14,13 +14,12 @@ if (getNum % 5 == 0)
 else
 {
     Console.WriteLine("No");
-} */
+} 
 
 // write a program wich will do: /; +; -; *;
 // while division and substraction, greater number should bechosen first
 // if least number is 0, program should write "Not Allowed To Divide By Zero"
 
-/*
 
 Console.WriteLine("Choose Operation: ");
 var operation = Console.ReadLine();
@@ -78,14 +77,14 @@ if (operation == "/")
     }
 }
 
-*/
+
 
 
 // replace variable values
 // input: x=5 y=10
 // output: x = 10 y = 5
 
-/*
+
 Console.WriteLine("Input X: ");
 int inputX = Convert.ToInt32(Console.ReadLine());
 
@@ -100,12 +99,12 @@ int x = inputY;
 int y = inputX;
 
 Console.WriteLine($"X = {x}; Y = {y}");
-*/
+
 
 
 // create multiply table for input
 
-/*
+
 Console.WriteLine("Input:");
 int input = Convert.ToInt32(Console.ReadLine());
 
@@ -116,7 +115,7 @@ for (int i = 1; i < 10; i++)
     Console.WriteLine($"{input} * {i} = {i * input} ");
 }
 
-*/
+
 
 // get input n, find even numbers 1 to n and print their pwr 2
 
